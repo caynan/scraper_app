@@ -8,3 +8,5 @@ DATABASE = {'drivername': 'postgres',
             'username': 'caynan',
             'password': 'root',
             'database': 'scrape'}
+
+ITEM_PIPELINES = {'scraper_app.pipelines.LivingSocialPipeline'}
